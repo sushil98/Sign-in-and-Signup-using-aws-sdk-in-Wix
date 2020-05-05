@@ -5,11 +5,7 @@ import AWS from 'aws-sdk';
 //import * as AmazonCognitoIdentity from 'amazon-cognito-identity-js';
 
 
- const poolData = {
-    UserPoolId: '',
-    ClientId: ''
-  };
- 
+
 	export function call(email, password) {
 
 // For Signup
